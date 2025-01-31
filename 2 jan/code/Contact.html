@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYle>
+        *
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+        ul li 
+        {
+            list-style-type: none;
+            float: right;
+            display: block;
+            padding-right: 20px;
+        }
+        ul 
+        {
+            overflow: hidden;
+        }
+        header
+        {
+            background: linear-gradient(to right,rgba(173, 123, 100, 0.5),rgb(56, 19, 5));
+            color: rgb(246, 251, 255);
+            padding: 20px;
+        }
+        a
+        {
+            text-decoration: none;
+            color: aliceblue;
+        }
+.Formbox
+{
+    border: 3px solid #74a024;
+    border-radius: 10px;
+    width: 300px;
+    height: 280px;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+form
+{
+    padding-left: 60px;
+    padding-top: 10px
+}
+input
+{
+    border: 2px solid rgb(97, 30, 30);
+    border-radius: 5px;
+    padding: 5px;
+}
+input:hover
+{
+    border: px solid rgb(252, 235, 1);
+    padding: 10px;
+}
+button
+{
+    background-color: #74a024;
+    border-radius: 3px;
+    padding: 5px;
+    color: aliceblue;
+}
+button:hover
+{
+    background-color: rgb(60, 120, 173);
+    color: black;
+}
+</STYle>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Register.html">Register</a></li>
+                <li><a href="Contact.html" target="_blank">Contact</a></li>
+                <li><a href="About us.html">About us</a><li>
+                <LI><a href="Home.html">Home</a></LI>
+            </ul>
+        </nav>
+    </header>
+    <div class="Formbox">
+        <h1 style="text-align: center;">Registeration Form</h1>
+        <form action="Thanku.html" target="_blank">
+        <label for="Username">User Name</label>
+         <br><br>
+        <input type="text" placeholder="Enter User Name">
+        <br><br>
+        <label for="User name">User Email</label>
+        <br><br>
+        <input type="email" placeholder="Enter User Email" required>
+        <br><br>
+        <BUtton>Register</BUtton>
+    </form>
+    </div>
+</body>
+</html>
